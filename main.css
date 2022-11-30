@@ -1,4 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@300;700&display=swap');
+
 body{
 /* css */
-background-color: lavender;
+background-color: #ab92bf;
+font-family:'Bebas Neue', cursive;
+font-size: 20pt;
+color:rgb(228, 255, 227);
+}
+
+h1{
+    font-family:'Dosis' sans-serif;
+    color: greenyellow;
+    font-size: 80pt;
+    text-align: center;
+    /* margin: auto;
+    width: 50%;
+    border: 1px solid rgb(127, 72, 140);
+    padding: 10px; */
+}
+h3{
+    width: 60%;
+    margin:0 auto;
+    /* tekst centreren*/
+
+}
+p{
+    width: 60%;
+    margin:0 auto;
+    /* tekst centreren*/
+} 
+img{
+    display:block;
+    width:400px;
+    margin: 40px;
+    /* faster way of fitting image to screen + fool proof :)*/
+}
+/* styling link: */
+a{
+    color:blueviolet;
+    text-decoration: none;
+}
+/* in depth deco of links */
+/* LoVe and HAte -> 4 stages of a link: link, visited, hover and active -but group with comma */
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  /* afstand tussen onderdelen veranderen */
+.party{
+    margin-bottom:80px;
+}
+.preparty{
+    margin-bottom:50px;
+}
+/* this gets your boxes next to eachother: */
+.container{
+    display:flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    padding-left: 100px;
 }
